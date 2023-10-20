@@ -54,9 +54,27 @@ main {
     width: 60%;
     height: 55%;
     position: absolute;
-    margin: 30px 0 0 15%;
+    margin: 40px 0 0 15%;
     margin-left: 10%;
     padding: 30px;
+}
+
+label {
+    color: #9e8707;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.l-1 {
+    margin-right: 20px;
+}
+
+.l-2 {
+    margin-right: 20px;
+}
+
+.digite-o-valoro {
+    width: 100px;
 }
 
 button {
@@ -72,27 +90,58 @@ button {
 }
 
 section {
-    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    width: 90%;
+    margin: 10px auto;
+    align-items: center;
+   
+
 }
 
 .from {
     display: inline-block;
+    position: relative;
+    width: 35%;
+    margin: 10px 10%;
+    text-align: center;
+    align-items: center;
 }
 
 .brazil {
-    width: 90px;
+    width: 125px;
+    display: block;
+}
+
+.seta {
+    display: inline-block;
+    position: relative;
+    margin: auto;
 }
 
 .arrow {
-    display: inline-block;
-}
-
-.dolar-euro {
-    width: 90px;
+  width: 70px;
+  margin: center;
 }
 
 .to {
     display: inline-block;
+    position: relative;
+    text-align: center;
+
+}
+
+.dolar-euro {
+    display: block;
+    width: 125px;
+}
+
+.p-1 {
+    display: inline;
+}
+
+.p-2 {
+    display: inline;
 }
 
 .img-omega {

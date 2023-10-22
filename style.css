@@ -99,50 +99,39 @@ section {
 
 }
 
-.from {
+.colunas {
     display: inline-block;
     position: relative;
-    width: 35%;
-    margin: 10px 10%;
+    width: 32%;
     text-align: center;
-    align-items: center;
+    
 }
 
 .brazil {
-    width: 125px;
-    display: block;
-}
-
-.seta {
-    display: inline-block;
-    position: relative;
-    margin: auto;
-}
-
-.arrow {
-  width: 70px;
-  margin: center;
-}
-
-.to {
-    display: inline-block;
-    position: relative;
-    text-align: center;
-
-}
-
-.dolar-euro {
-    display: block;
-    width: 125px;
+    width: 80px;
+    margin-top: 20px;
 }
 
 .p-1 {
-    display: inline;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.dolar-euro {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.arrow {
+    margin-bottom: 40px;
+    
 }
 
 .p-2 {
-    display: inline;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
+
 
 .img-omega {
     width: 45%;

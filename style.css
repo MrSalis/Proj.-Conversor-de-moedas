@@ -9,6 +9,7 @@ ROTEIRO
 
 4 - Definir backgrund do BODY
 
+
 */
 
 * {
@@ -45,7 +46,6 @@ h1 {
     text-align: left;
     color: blueviolet;
 }
-
 
 main {
     background-color: aliceblue;
@@ -95,7 +95,6 @@ section {
     width: 90%;
     margin: 10px auto;
     align-items: center;
-   
 
 }
 
@@ -131,7 +130,6 @@ section {
     font-size: 20px;
     margin-bottom: 10px;
 }
-
 
 .img-omega {
     width: 45%;

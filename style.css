@@ -38,6 +38,10 @@ header {
     margin-left: 20px;
 }
 
+.img-responsivo {
+    display: none;
+}
+
 h1 {
     display: inline;
     font-size: 80px;
@@ -103,7 +107,7 @@ section {
     position: relative;
     width: 32%;
     text-align: center;
-    
+
 }
 
 .brazil {
@@ -123,7 +127,7 @@ section {
 
 .arrow {
     margin-bottom: 40px;
-    
+
 }
 
 .p-2 {
@@ -135,4 +139,61 @@ section {
     width: 45%;
     margin-left: 60%;
     margin-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+        background: #8A51FC;
+    }
+
+    header {
+        display: none;
+    }
+
+    .img-responsivo {
+        display: block;
+        width: 90px;
+        margin-top: 15px;
+       margin-left: 93px;
+    }
+
+    main {
+        position: relative;
+        height: 50vh;
+        background-color: aliceblue;
+        display: block;
+        border-radius: 20px;
+        width: 330px;
+        height: 510px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding: 15px;
+
+    }
+
+    button {
+        display: block;
+        width: 295px;
+        height: 48px;
+        border-radius: 5px;
+        background: #8A51FC;
+        color: blanchedalmond;
+        font-size: 30px;
+        padding: 15px;
+        margin: 20px auto;
+        cursor: pointer;
+        line-height: 15px;
+        
+    }
+
+
+
+    .img-omega {
+        display: none;
+
+    }
+
 }

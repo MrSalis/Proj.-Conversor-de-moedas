@@ -38,10 +38,6 @@ header {
     margin-left: 20px;
 }
 
-.img-responsivo {
-    display: none;
-}
-
 h1 {
     display: inline;
     font-size: 80px;
@@ -49,6 +45,18 @@ h1 {
     position: absolute;
     text-align: left;
     color: blueviolet;
+}
+
+.img-01-responsivo {
+    display: none;
+}
+
+.img-01-responsivo-b {
+    display: none;
+}
+
+.only-responsivo {
+    display: none;
 }
 
 main {
@@ -144,52 +152,61 @@ section {
 @media screen and (max-width: 900px) {
 
     body {
-        background: #8A51FC;
+        background: #fdfdfd;
+        display: block;
     }
 
     header {
         display: none;
     }
 
-    .img-responsivo {
-        display: block;
-        width: 90px;
-        margin-top: 15px;
-       margin-left: 93px;
-    }
-
-    main {
-        position: relative;
-        height: 50vh;
-        background-color: aliceblue;
-        display: block;
-        border-radius: 20px;
-        width: 330px;
-        height: 510px;
+    .img-01-responsivo {
+        width: 75px;
+        display: flex;
+        margin-left: 30px;
+        margin-top: 65px;
         position: absolute;
-        margin-left: 20px;
-        margin-top: 20px;
-        margin-bottom: 25px;
-        padding: 15px;
-
+    
     }
 
-    button {
-        display: block;
-        width: 295px;
-        height: 48px;
-        border-radius: 5px;
-        background: #8A51FC;
-        color: blanchedalmond;
-        font-size: 30px;
-        padding: 15px;
-        margin: 20px auto;
-        cursor: pointer;
-        line-height: 15px;
+    .img-01-responsivo-b {
+        width: 75px;
+        display: flex;
+        margin-left: 295px;
+        margin-top: 65px;
+        position: absolute;
+        transform: scaleX(-1);
         
     }
 
+    .only-responsivo {
+        display: inline;
+        font-size: 40px;
+        font-weight: 600;
+        position:static;
+        text-align: left;
+        color: blueviolet;
+        display:block;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        margin-left: auto;
+        letter-spacing: 4px;
+    }
 
+
+    main {
+        display: block;
+        position: relative;
+        border-radius: 20px;
+        background: #f0efb5;
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-top: 0;
+        padding: 15px;
+    }
 
     .img-omega {
         display: none;

@@ -191,7 +191,6 @@ section {
 
     }
 
-
     main {
         display: block;
         background: #f0efb5;
@@ -252,14 +251,14 @@ section {
     }
 
     section {
-       padding: 12px;
-       display: flex;
-       flex-direction: column;
-       margin-top: 30px;
-       margin-bottom: 35px;
-    }
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 35px;
+     }
 
-    .brazil, .dolar-euro {
+     .brazil, .dolar-euro {
         width: 44px;
         height: 44px;
         flex-shrink: 0;
@@ -287,3 +286,4 @@ section {
     }
 
 }
+

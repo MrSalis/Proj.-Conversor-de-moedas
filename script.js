@@ -2,10 +2,11 @@ const converter = document.querySelector(".convert")
 const mySelect = document.querySelector(".currency-select")
 
 function convertValues() {
+
     const myInput = document.querySelector(".digite-o-valor").value
     const toConvert = document.querySelector(".p-01")
     const toConverted = document.querySelector(".p-02")
-    console.log(mySelect.value)
+
     const dolarToDay = 4.95
     const euroToDay = 5.27
 
@@ -30,8 +31,21 @@ function convertValues() {
 
 }
 
-function changeCurrency(){
-console.log("mudou de moeda")
+function changeCurrency() {
+    const currencyName = document.getElementById("currency-name")
+    const currencyImg = document.querySelector(".dolar-euro")
+
+    if (mySelect.value == "dolar") {
+        currencyName.innerHTML = "Dólar americano"
+        currencyImg.src = "./assets/img-dolar-usa.png"
+    }
+
+    if (mySelect.value == "euro") {
+        currencyName.innerHTML = "Euro"
+        currencyImg.src = "./assets/img-euro.png"
+    }
+
+    convertValues()
 }
 
 mySelect.addEventListener("change", changeCurrency)

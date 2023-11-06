@@ -9,6 +9,7 @@ function convertValues() {
 
     const dolarToDay = 4.95
     const euroToDay = 5.27
+    const bitcoinToDay = 170.963
 
     if (mySelect.value == "dolar") {
         toConverted.innerHTML = new Intl.NumberFormat("en-US", {
@@ -22,6 +23,13 @@ function convertValues() {
             style: "currency",
             currency: "EUR"
         }).format(myInput / euroToDay)
+    }
+
+    if (mySelect.value == "bitcoin") {
+        toConverted.innerHTML = new Intl.NumberFormat("de-DE", {
+            style: "currency",
+            currency: "XPT"
+        }).format(myInput / bitcoinToDay)
     }
 
     toConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
@@ -43,6 +51,11 @@ function changeCurrency() {
     if (mySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
         currencyImg.src = "./assets/img-euro.png"
+    }
+
+    if (mySelect.value == "bitcoin") {
+        currencyName.innerHTML = "Bitcoin"
+        currencyImg.src = "./assets/bitcoin 1.png"
     }
 
     convertValues()

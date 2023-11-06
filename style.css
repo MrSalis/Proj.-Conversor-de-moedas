@@ -66,7 +66,7 @@ main {
 
 label {
     color: #9e8707;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -79,7 +79,7 @@ label {
 }
 
 .digite-o-valor {
-    width: 100px;
+    width: 150px;
 }
 
 button {

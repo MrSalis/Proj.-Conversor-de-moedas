@@ -79,7 +79,7 @@ label {
 }
 
 .digite-o-valor {
-    width: 150px;
+    width: 125px;
 }
 
 button {
@@ -116,7 +116,8 @@ section {
     margin-top: 20px;
 }
 
-.p-1, .p-01 {
+.p-1,
+.p-01 {
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -128,11 +129,12 @@ section {
 
 .arrow {
     margin-bottom: 40px;
-    
+
 
 }
 
-.p-2, .p-02 {
+.p-2,
+.p-02 {
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -256,16 +258,20 @@ section {
         flex-direction: column;
         margin-top: 30px;
         margin-bottom: 35px;
-     }
+    }
 
-     .brazil, .dolar-euro {
+    .brazil,
+    .dolar-euro {
         width: 44px;
         height: 44px;
         flex-shrink: 0;
 
     }
 
-    .p-1, .p-2, .p-01, .p-02 {
+    .p-1,
+    .p-2,
+    .p-01,
+    .p-02 {
         font-size: 13px;
         font-style: normal;
         font-weight: 400;
@@ -274,7 +280,7 @@ section {
     }
 
     .arrow {
-        width: 44px; 
+        width: 44px;
         transform: rotate(90deg);
         margin-top: 20px;
         margin-bottom: 0%;
@@ -286,4 +292,3 @@ section {
     }
 
 }
-

@@ -1,22 +1,3 @@
-<!--
-    ROTEIRO:
-            1> arguivos (index.html, style.css, script.js, pasta-assets)
-            2> Inicia configuração html
-            3> layot da pagina:
-
-                >img do header obs: colocar o gif da moeda a esquerda e imagem da calculadora a direita
-                                    Ocupando o cabeçario da pagina.
-            4> H1 (titulo do site)
-                >tag semantico (MAIN /LABEL /SELECT /OPCION)
-
-                    LABEL1 (DE)
-                    LABEL2 (P) OPCTIO= 1 E 2
-                    LABER3 (INPUT)
-                
-            5> BUTTON
-            6> SECTION (DIV1 / IMG / DIV2)
-
--->
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -42,17 +23,15 @@
 
     </div>
 
-
-
     <main>
         <label class="l-1">
             CONVERTER <b>DE:</b>
-            <select>
-                <option>R$ Real</option>
-                <option>$ Dolar americano</option>
-                <option>€ Euro</option>
-                <option>₿ Bitcoin</option>
-                <option>£ Libra</option>
+            <select class="currency-select-l1">
+                <option value="real">R$ Real</option>
+                <option value="dolar">$ Dolar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+                <option value="libra">£ Libra</option>
             </select>
         </label>
 
@@ -70,7 +49,7 @@
 
         <label class="l-3">
             VALOR:
-            <input class="digite-o-valor" placeholder="R$ 100,00">
+            <input type="number" class="digite-o-valor" placeholder="R$ 100,00">
         </label>
 
         <button class="convert">CONVERTER</button>
@@ -78,7 +57,7 @@
         <section>
             <div class="colunas">
                 <img class="brazil" src="./assets/img-real-brasil.png" all="Converter-de-real-Brasil">
-                <p class="p-1">Real</p>
+                <p class="p-1" id="currency-name-p1">Real</p>
                 <p class="p-01">R$ 0,0</p>
             </div>
 

@@ -64,7 +64,7 @@ function convertValues1() {
         }).format(myInput * realToDay)
     }
 
-    toConverted.innerHTML = new Intl.NumberFormat("en-US", {
+    toConvert.innerHTML = new Intl.NumberFormat("en-US", {
         style: "currency",
         currency: "USD"
     }).format(myInput)
